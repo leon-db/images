@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T07:41:44.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="g9BDwVNBfC_vDMhheXAs" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T07:57:52.623Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="LdkTwRAIqSvJA-SAK1WT" version="14.9.8" type="github">
   <diagram id="gGT2gpRzlUsqtBOC6xT4" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RbjBjPuDm6OWkpRvi5eB-40" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;opacity=20;" vertex="1" parent="1">
-          <mxGeometry x="20" y="360" width="1060" height="240" as="geometry" />
+          <mxGeometry x="20" y="360" width="1060" height="320" as="geometry" />
         </mxCell>
         <mxCell id="RbjBjPuDm6OWkpRvi5eB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="100" y="202.5" width="519" height="40" as="geometry" />
@@ -126,6 +126,33 @@
         </mxCell>
         <mxCell id="RbjBjPuDm6OWkpRvi5eB-9" value="4B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="RbjBjPuDm6OWkpRvi5eB-43">
           <mxGeometry x="149.38" y="69.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-44" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="154.88" y="358.5" width="20" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="347.5" width="20" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-46" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="347.5" width="20" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-47" value="4B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-48" value="4B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-49" value="1B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="144.88" y="380" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-50" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="485" width="20" height="113.75" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-51" value="4B" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RbjBjPuDm6OWkpRvi5eB-52" value="&lt;ul&gt;&lt;li&gt;对于其他类型,比如说delete, 编码方式和上面的一样，只是可能delete没有value部分&lt;/li&gt;&lt;li&gt;SingleDelete 也是只有key部分和类型&lt;/li&gt;&lt;li&gt;DeleteRange 也是只有key部分，包含start_key和end_key&lt;/li&gt;&lt;li&gt;Merge操作和kTypeValue一样只是这个type类型不同&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="29.999999999999993" y="730" width="1005.12" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
