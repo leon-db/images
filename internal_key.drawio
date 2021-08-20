@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-20T03:37:59.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="ebOh7by2symzWtQXVYLK" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-20T03:57:33.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="wQs7UqPGLTpGmGtWIQCx" version="14.9.8" type="github">
   <diagram id="519BS6uLE0lahP8ZOvyZ" name="第 1 页">
     <mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,11 +34,14 @@
         <mxCell id="DC8QAB9al3t7CtTORqRm-10" value="user_key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="300" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DC8QAB9al3t7CtTORqRm-11" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;kTypeDeletion&lt;/li&gt;&lt;li&gt;kTypeValue&lt;/li&gt;&lt;li&gt;kTypeMerge&lt;/li&gt;&lt;li&gt;kTypeLogData&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyDeletion&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyValue&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyMerge&lt;/li&gt;&lt;li&gt;kTypeSingleDeletion&lt;/li&gt;&lt;li&gt;kTypeColumnFamilySingleDeletion&lt;/li&gt;&lt;li&gt;kTypeBeginPrepareXID&lt;/li&gt;&lt;li&gt;kTypeEndPrepareXID&lt;/li&gt;&lt;li&gt;kTypeCommitXID&lt;/li&gt;&lt;li&gt;kTypeRollbackXID&lt;/li&gt;&lt;li&gt;kTypeNoop&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyRangeDeletion&lt;/li&gt;&lt;li&gt;kTypeRangeDeletion&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyBlobIndex&lt;/li&gt;&lt;li&gt;kTypeBlobIndex&lt;/li&gt;&lt;li&gt;kTypeBeginPersistedPrepareXID&lt;/li&gt;&lt;li&gt;kTypeBegin&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="189" y="450" width="241" height="390" as="geometry" />
+        <mxCell id="DC8QAB9al3t7CtTORqRm-11" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;kTypeDeletion&lt;/li&gt;&lt;li&gt;kTypeValue&lt;/li&gt;&lt;li&gt;kTypeMerge&lt;/li&gt;&lt;li&gt;kTypeLogData&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyDeletion&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyValue&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyMerge&lt;/li&gt;&lt;li&gt;kTypeSingleDeletion&lt;/li&gt;&lt;li&gt;kTypeColumnFamilySingleDeletion&lt;/li&gt;&lt;li&gt;kTypeBeginPrepareXID&lt;/li&gt;&lt;li&gt;kTypeEndPrepareXID&lt;/li&gt;&lt;li&gt;kTypeCommitXID&lt;/li&gt;&lt;li&gt;kTypeRollbackXID&lt;/li&gt;&lt;li&gt;kTypeNoop&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyRangeDeletion&lt;/li&gt;&lt;li&gt;kTypeRangeDeletion&lt;/li&gt;&lt;li&gt;kTypeColumnFamilyBlobIndex&lt;/li&gt;&lt;li&gt;kTypeBlobIndex&lt;/li&gt;&lt;li&gt;kTypeBeginPersistedPrepareXID&lt;/li&gt;&lt;li&gt;kTypeBeginUnprepareXID&lt;/li&gt;&lt;li&gt;kTypeDeletionWithTimestamp&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="189" y="450" width="241" height="350" as="geometry" />
         </mxCell>
         <mxCell id="DC8QAB9al3t7CtTORqRm-12" value="Type类型" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="450" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DC8QAB9al3t7CtTORqRm-13" value="kValueTypeForSeek&amp;nbsp; = kTypeDeletionWithTimestamp&lt;br&gt;kValueTypeForSeekForPrev = kTypeDeletion&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="820" width="510" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
